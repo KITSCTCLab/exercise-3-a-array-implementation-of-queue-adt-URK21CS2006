@@ -132,9 +132,9 @@ compare both characters
 If the comparison fails, set is_palindrome as False.
 '''
 for i in range(length_of_text//2):
-  a = solution.pop_character()
-  b = solution.dequeue_character()
-  if a != b:
+  a1 = solution.pop_character()
+  a2 = solution.dequeue_character()
+  if a1 != a2:
     is_palindrome = False
 
 
